@@ -5,9 +5,7 @@ const BASE_URL = 'https://notehub-public.goit.study/api';
 
 export interface FetchNotesResponse {
   notes: Note[];
-  total: number;
-  page: number;
-  perPage: number;
+  totalPages: number;
 }
 
 
